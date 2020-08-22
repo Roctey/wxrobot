@@ -21,7 +21,7 @@ def auto_reply(msg):
 
 def keyword_reply(msg):
     """关键字回复"""
-    if '你叫啥' in msg.text or '你叫啥名字' in msg.text:
+    if '你叫啥' in msg.text or '你叫什么名字' in msg.text:
         return msg.reply('沃德天·维森莫·拉莫帅·帅德布耀')
     pass
 
